@@ -1,0 +1,30 @@
+.btn-warning,
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning:visited {
+  background-color: #f0dc4e;
+}
+
+.course-card {
+  transition: transform 0.3s ease;
+}
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+.main-card {
+  transition: 1s ease;
+}
+
+.main-card:hover {
+  transform: scale(1.05);
+}
+
+i {
+  padding: 5px;
+}
+
+.active {
+  font-weight: bold;
+  color: #ffc107;
+}
